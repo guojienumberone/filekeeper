@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Demo</servlet-name>
+  	<display-name>Demo</display-name>
+  	<description></description>
+  	<servlet-class>pers.jack.filekeeper.api.Demo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Demo</servlet-name>
+  	<url-pattern>/demo</url-pattern>
+  </servlet-mapping>
 </web-app>
